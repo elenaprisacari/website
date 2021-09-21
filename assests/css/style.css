@@ -1353,7 +1353,7 @@ margin-left: 20px;
 .collectiv{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 4fr 0.1fr 0.1fr 4fr 0.1fr 4fr 0.1fr 1fr 1fr;
+    grid-template-rows: 4fr 0.1fr 0.1fr 4fr 0.05fr 4fr 0.05fr 1fr 1fr;
 }
 .image37{
     grid-column-start: 1;
@@ -1588,7 +1588,7 @@ margin-left: 20px;
     margin-left: 20px;
     margin-top: 90px;
 }
-.k12{
+.k16{
     grid-column-start: 4;
     grid-row-start: 7;
     font-family: Nunito;
