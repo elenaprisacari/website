@@ -711,11 +711,13 @@ a{
     margin-left: 20px;
 }
 .hart{
-    grid-column-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 8;
     grid-row-start: 3;
     grid-row-end: 10;
     width: 100%;
     height: 100%;
+
     
 
 }
@@ -1717,7 +1719,7 @@ margin-left: 20px;
 .ads{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(5, 1fr)
+    grid-template-rows: repeat(5, 1fr);
 }
 .image51{
     grid-column-start: 1;
