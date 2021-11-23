@@ -38,7 +38,7 @@ body{
 .main{
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 1fr;
-    grid-template-rows: repeat(6, 10px) repet(3, 200px);
+    grid-template-rows: repeat(7, 10px) repet(3, 200px);
     
     
 }
@@ -150,19 +150,24 @@ body{
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 1; 
+    text-align: center;
+    font-family: Nunito;
 }
 .m1{
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 2;
     grid-row-end: 2; 
-    
+    text-align: center;
+    font-family: Nunito;
 }
 .m2{
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 3;
     grid-row-end: 3; 
+    text-align: center;
+    font-family: Nunito;
     
 }
 .m3{
@@ -170,6 +175,8 @@ body{
     grid-column-end: 1;
     grid-row-start: 4;
     grid-row-end: 4; 
+    text-align: center;
+    font-family: Nunito;
     
 }
 .m4{
@@ -177,6 +184,8 @@ body{
     grid-column-end: 1;
     grid-row-start: 5;
     grid-row-end: 5; 
+    text-align: center;
+    font-family: Nunito;
     
 }
 .m5{
@@ -184,20 +193,26 @@ body{
     grid-column-end: 1;
     grid-row-start: 6;
     grid-row-end: 6; 
+    text-align: center;
+    font-family: Nunito;
     
 }
 .image9{
     grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 7;
+    grid-column-end: 2;
+    grid-row-start: 6;
     grid-row-end: 9; 
+    height: 100%;
+    width: auto;
+    align-self: center;
     
 }
-.image10{
+.image16{
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 7;
-    grid-row-end: 8; 
+    grid-row-end: 8;
+    
     
 }
 .image11{
@@ -207,14 +222,15 @@ body{
     grid-row-end: 7; 
     
 }
-.image12{
+.image15{
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 6; 
     justify-self: center;
-   width: 800px ;
+   width: 80%;
    height: auto;
+
     
 }
 .image13{
@@ -259,14 +275,16 @@ body{
     grid-row-end: 7; 
     
 }
-.image15{
+.image12{
     grid-column-start: 4;
     grid-column-end: 4;
     grid-row-start: 7;
     grid-row-end: 8; 
+    justify-self: center;
+    width: 100%;
     
 }
-.image16{
+.image10{
     grid-column-start: 4;
     grid-column-end: 4;
     grid-row-start: 8;
