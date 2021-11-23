@@ -25,12 +25,12 @@ body{
 
 }
 .menu{
-    height: 30px;
+    height: 100%;
     width: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 1fr 2fr 2fr 1fr 1fr 1fr;
-    margin: 1px;
-    padding: 1px;
+    margin: 0px;
+    padding: 0px;
     background: rgba(45, 112, 43, 0.59);
   
 }
@@ -99,7 +99,96 @@ body{
     display: inline-block;
     margin-left: 15px;
 }
-
+.menu1{
+    grid-row-start: 1;
+    width: 100%;
+    height: 100%;
+    color:white;
+    font-family: Nunito;
+    font-size: 20px;
+    text-align:center;
+    text-decoration: none !important;
+}
+.menu2{
+    grid-row-start: 2;
+    width: 100%;
+    height: 100%;
+    color:white;
+    font-family: Nunito;
+    font-size: 20px;
+    text-align:center;
+    text-decoration: none !important;
+}
+.menu3{
+    grid-row-start: 3;
+    width: 100%;
+    height: 100%;
+    color:white;
+    font-family: Nunito;
+    font-size: 20px;
+    text-align:center;
+    text-decoration: none !important;
+}
+.menu4{
+    grid-row-start: 4;
+    width: 100%;
+    height: 100%;
+    color:white;
+    font-family: Nunito;
+    font-size: 20px;
+    text-align:center;
+    text-decoration: none !important;
+}
+.menu5{
+    grid-row-start: 5;
+    width: 100%;
+    height: 100%;
+    color:white;
+    font-family: Nunito;
+    font-size: 20px;
+    text-align:center;
+    text-decoration: none !important;
+}
+.menu6{
+    grid-row-start: 6;
+    width: 100%;
+    height: 100%;
+    color:white;
+    font-family: Nunito;
+    font-size: 20px;
+    text-align:center;
+    text-decoration: none !important;
+}
+.menu7{
+    grid-row-start: 7;
+    width: 100%;
+    height: 100%;
+    color:white;
+    font-family: Nunito;
+    font-size: 20px;
+    text-align:center;
+    text-decoration: none !important;
+}
+.menu8{
+    grid-row-start: 8;
+    width: 100%;
+    height: 100%;
+    color:white;
+    font-family: Nunito;
+    font-size: 20px;
+    text-align:center;
+    text-decoration: none !important;
+}
+.menu9{
+    grid-row-start: 9;
+    width: 100%;
+    height: 100%;
+    color:white;
+    font-family: Nunito;
+    font-size: 20px;
+    text-align:center;
+    text-decoration: none !important;
+}
 .name1{
     grid-row-start: 2;
     grid-row-end: 3;
