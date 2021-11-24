@@ -107,7 +107,7 @@ body{
     font-family: Nunito;
     font-size: 20px;
     text-align:center;
-    text-decoration: none !important;
+    
 }
 .menu2{
     grid-row-start: 2;
@@ -117,7 +117,6 @@ body{
     font-family: Nunito;
     font-size: 20px;
     text-align:center;
-    text-decoration: none !important;
 }
 .menu3{
     grid-row-start: 3;
@@ -127,7 +126,6 @@ body{
     font-family: Nunito;
     font-size: 20px;
     text-align:center;
-    text-decoration: none !important;
 }
 .menu4{
     grid-row-start: 4;
@@ -137,7 +135,6 @@ body{
     font-family: Nunito;
     font-size: 20px;
     text-align:center;
-    text-decoration: none !important;
 }
 .menu5{
     grid-row-start: 5;
@@ -147,7 +144,6 @@ body{
     font-family: Nunito;
     font-size: 20px;
     text-align:center;
-    text-decoration: none !important;
 }
 .menu6{
     grid-row-start: 6;
@@ -157,7 +153,10 @@ body{
     font-family: Nunito;
     font-size: 20px;
     text-align:center;
-    text-decoration: none !important;
+}
+
+a{
+    text-decoration: none;
 }
 .menu7{
     grid-row-start: 7;
@@ -167,7 +166,6 @@ body{
     font-family: Nunito;
     font-size: 20px;
     text-align:center;
-    text-decoration: none !important;
 }
 .menu8{
     grid-row-start: 8;
@@ -177,7 +175,6 @@ body{
     font-family: Nunito;
     font-size: 20px;
     text-align:center;
-    text-decoration: none !important;
 }
 .menu9{
     grid-row-start: 9;
@@ -187,7 +184,6 @@ body{
     font-family: Nunito;
     font-size: 20px;
     text-align:center;
-    text-decoration: none !important;
 }
 .name1{
     grid-row-start: 2;
