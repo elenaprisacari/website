@@ -44,7 +44,7 @@ body{
 .footer{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr, 5fr;
+    grid-template-rows: repeat(9, 0.1fr);
 }
 .image1{
     width: 15px;
@@ -544,4 +544,96 @@ a{
     font-weight: bold;
     background-color:  rgba(157, 177, 136, 0.5);
     vertical-align: bottom;
+}
+.f1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    width: 100%;
+    height: 100%;
+    color:rgb(10, 10, 10);
+    font-family: Nunito;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+   
+}
+.f4{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    width: 100%;
+    height: 100%;
+    font-family: Nunito;
+    text-align: left;
+    font-size: 15px;
+    color: blue;
+
+}
+.f5{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    width: 100%;
+    height: 100%;
+    font-family: Nunito;
+    text-align: left;
+    font-size: 15px;
+    color:rgb(10, 10, 10);
+    font-weight: bold;
+
+}
+.f6{
+    grid-column-start: 1;
+    grid-row-start: 4;
+    width: 100%;
+    height: 100%;
+    font-family: Nunito;
+    text-align: left;
+    font-size: 15px;
+    color: blue;
+
+}
+.f7{
+    grid-column-start: 1;
+    grid-row-start: 5;
+    width: 100%;
+    height: 100%;
+    font-family: Nunito;
+    text-align: left;
+    font-size: 15px;
+    color:rgb(10, 10, 10);
+    font-weight: bold;
+
+}
+.f8{
+    grid-column-start: 1;
+    grid-row-start: 6;
+    width: 100%;
+    height: 100%;
+    font-family: Nunito;
+    text-align: left;
+    font-size: 15px;
+    color: blue;
+
+}
+.f9{
+    grid-column-start: 1;
+    grid-row-start: 7;
+    width: 100%;
+    height: 100%;
+    font-family: Nunito;
+    text-align: left;
+    font-size: 15px;
+    color:rgb(10, 10, 10);
+    font-weight: bold;
+
+}
+.f10{
+    grid-column-start: 1;
+    grid-row-start: 8;
+    width: 100%;
+    height: 100%;
+    font-family: Nunito;
+    text-align: left;
+    font-size: 15px;
+    color: blue;
+
 }
