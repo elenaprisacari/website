@@ -36,7 +36,7 @@ body{
 }
 .main{
     display: grid;
-    grid-template-columns: 3fr 6fr 1fr 2fr;
+    grid-template-columns: 6fr 9fr 4fr 3fr;
     grid-template-rows: repeat(7, 0.1fr) repeat(2, 1fr);
     
     
@@ -309,7 +309,7 @@ a{
     grid-row-start: 1;
     grid-row-end: 7; 
     justify-self: left;
-   width: 130%;
+   width: 170%;
    height: 100%;
   
     
@@ -320,7 +320,7 @@ a{
     grid-row-start: 1;
     grid-row-end: 7; 
     justify-self: right;
-    width: 80% ;
+    width: 60% ;
     height: 100%;
     
     
@@ -431,6 +431,7 @@ a{
     font-family: Nunito;
     font-size: 15px;
     text-align: left;
+    margin-left: 7px;
 }
 .menu11{
     width: 100%;
@@ -439,6 +440,7 @@ a{
     font-family: Nunito;
     font-size: 15px;
     text-align: left;
+    margin-left: 7px;
 }
 .menu12{
     width: 100%;
@@ -447,6 +449,7 @@ a{
     font-family: Nunito;
     font-size: 15px;
     text-align: left;
+    margin-left: 7px;
 }
 .menu13{
     grid-row-start: 5;
@@ -456,6 +459,7 @@ a{
     font-family: Nunito;
     font-size: 15px;
     text-align: left;
+    margin-left: 7px;
 }
 .menu14{
     grid-row-start: 6;
@@ -465,6 +469,8 @@ a{
     font-family: Nunito;
     font-size: 15px;
     text-align: left;
+    margin-left: 7px;
+
 }
 .texts{
     grid-row-start: 7;
@@ -475,15 +481,18 @@ a{
     color:rgb(10, 10, 10);
     font-family: Nunito;
     text-align: left;
+    margin-right: 30px;
 }
 .t1{
     
     font-size: 25px;
     font-weight: bold;
+    margin-right: 30px;
     
 }
 .t3{
     color:blue;
+    margin-right: 30px;
 }
 .text1{
     width: 100%;
@@ -501,6 +510,7 @@ a{
     font-family: Nunito;
     text-align: left;
     font-size: 15px;
+    margin-left: 20px;
 }
 .text3{
     grid-column-start: 4;
@@ -511,6 +521,7 @@ a{
     font-family: Nunito;
     text-align: left;
     font-size: 14px;
+    margin-left: 20px;
 }
 .text4{
     grid-column-start: 4;
@@ -521,6 +532,7 @@ a{
     font-family: Nunito;
     text-align: left;
     font-size: 14px;
+    margin-left: 20px;
 }
 .text5{
     grid-column-start: 4;
@@ -531,6 +543,7 @@ a{
     font-family: Nunito;
     text-align: left;
     font-size: 14px;
+    margin-left: 20px;
 }
 .text6{
     grid-column-start: 4;
@@ -680,4 +693,129 @@ a{
     height: 20px;
     justify-self: right;
 
+}
+.news{
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-rows: repeat(20, 0.3fr);
+}
+.n1{
+    grid-row-start: 1;
+    width: 100%;
+    height: 100%;
+    font-family: Nunito;
+    font-size: 20px;
+    color:rgb(10, 10, 10);
+    text-align: center;
+    font-weight: bold;
+}
+.image21{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    width: 100%;
+}
+.n2{
+    grid-row-start: 2;
+    grid-column-start: 2;
+    width: 100%;
+    height: 100%;
+    font-family: Nunito;
+    font-size: 20px;
+    color:rgb(10, 10, 10);
+}
+.n3{
+    grid-row-start: 3;
+    grid-column-start: 2;
+    width: 100%;
+    height: 100%;
+    font-family: Nunito;
+    font-size: 10px;
+    color:rgb(10, 10, 10);
+}
+.n4{
+    grid-row-start: 4;
+    grid-column-start: 2;
+    width: 100%;
+    height: 100%;
+    font-family: Nunito;
+    font-size: 15px;
+    color:rgb(10, 10, 10);
+}
+.image22{
+    grid-row-start: 5;
+    grid-row-end: 8;
+    grid-column-start: 1;
+width: 100%;
+
+}
+.n5{
+    grid-row-start: 5;
+    grid-column-start: 2;
+    width: 100%;
+    height: 100%;
+    font-family: Nunito;
+    font-size: 20px;
+    color:rgb(10, 10, 10);
+}
+.n6{
+    grid-row-start: 6;
+    grid-column-start: 2;
+    width: 100%;
+    height: 100%;
+    font-family: Nunito;
+    font-size: 10px;
+    color:rgb(10, 10, 10);
+}
+.n7{
+    grid-row-start: 7;
+    grid-column-start: 2;
+    width: 100%;
+    height: 100%;
+    font-family: Nunito;
+    font-size: 15px;
+    color:rgb(10, 10, 10);
+}
+.n8{
+    grid-row-start: 8;
+    grid-column-start: 2;
+    width: 100%;
+    height: 100%;
+    font-family: Nunito;
+    font-size: 15px;
+    color:rgb(10, 10, 10);
+}
+
+.image23{
+    grid-row-start: 9;
+    grid-row-end: 11;
+    grid-column-start: 1;
+    width: 100%;
+}
+.n9{
+    grid-row-start: 9;
+    grid-column-start: 2;
+    width: 100%;
+    height: 100%;
+    font-family: Nunito;
+    font-size: 20px;
+    color:rgb(10, 10, 10);
+}
+.n10{
+    grid-row-start: 10;
+    grid-column-start: 2;
+    width: 100%;
+    height: 100%;
+    font-family: Nunito;
+    font-size: 10px;
+    color:rgb(10, 10, 10);
+}
+.n11{
+    grid-row-start: 11;
+    grid-column-start: 2;
+    width: 100%;
+    height: 100%;
+    font-family: Nunito;
+    font-size: 15px;
+    color:rgb(10, 10, 10);
 }
