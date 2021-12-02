@@ -1104,7 +1104,7 @@ margin-left: 20px;
 .aboutus{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.05fr 0.3fr repeat(4, 0.2fr) repeat(10, 0.01fr);
+    grid-template-rows: 0.05fr 0.3fr repeat(4, 0.2fr) 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr repeat(4, 0.02fr);
     background-color: rgba(112, 182, 143, 0.479);
     margin-left: 10px;
     
