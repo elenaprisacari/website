@@ -1350,3 +1350,104 @@ margin-left: 20px;
     text-align: right;
     margin-right: 10px;
 }
+.collectiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 4fr 0.1fr 0.1fr 4fr 1fr 1fr 4fr 1fr 1fr;
+}
+.image37{
+    grid-column-start: 1;
+    grid-row-start: 1 ;
+    height: 300px;
+    width: 90%;
+    margin-left: 20px;
+}
+.n1{
+    grid-column-start: 1;
+    grid-row-start: 2 ;
+    font-family: Nunito;
+    font-size: 17px;
+    color:rgb(10, 10, 10);
+    align-self: center;
+    font-weight: bold;
+}
+.n2{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    font-family: Nunito;
+    font-size: 17px;
+    color:rgb(10, 10, 10);
+    align-self: center;
+}
+.image38{
+    grid-column-start: 2;
+    grid-row-start: 1 ;
+    height: 300px;
+    width: 90%;
+    margin-left: 20px;
+}
+.n3{
+    grid-column-start: 2;
+    grid-row-start: 2 ;
+    font-family: Nunito;
+    font-size: 17px;
+    color:rgb(10, 10, 10);
+    align-self: center;
+    font-weight: bold;
+}
+.n4{
+    grid-column-start: 2;
+    grid-row-start: 3 ;
+    font-family: Nunito;
+    font-size: 17px;
+    color:rgb(10, 10, 10);
+    align-self: center;
+}
+.image39{
+    grid-column-start: 3;
+    grid-row-start: 1 ;
+    height: 300px;
+    width: 90%;
+    margin-left: 20px;
+}
+.n5{
+    grid-column-start: 3;
+    grid-row-start: 2 ;
+    font-family: Nunito;
+    font-size: 17px;
+    color:rgb(10, 10, 10);
+    align-self: center;
+    font-weight: bold;
+}
+.n6{
+    grid-column-start: 3;
+    grid-row-start: 3 ;
+    font-family: Nunito;
+    font-size: 17px;
+    color:rgb(10, 10, 10);
+    align-self: center;
+}
+.image40{
+    grid-column-start: 4;
+    grid-row-start: 1 ;
+    height: 300px;
+    width: 90%;
+    margin-left: 20px;
+}
+.n7{
+    grid-column-start: 4;
+    grid-row-start: 2 ;
+    font-family: Nunito;
+    font-size: 17px;
+    color:rgb(10, 10, 10);
+    align-self: center;
+    font-weight: bold;
+}
+.n8{
+    grid-column-start: 4;
+    grid-row-start: 3 ;
+    font-family: Nunito;
+    font-size: 17px;
+    color:rgb(10, 10, 10);
+    align-self: center;
+}
