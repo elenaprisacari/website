@@ -1362,7 +1362,7 @@ margin-left: 20px;
     width: 90%;
     margin-left: 20px;
 }
-.n1{
+.k1{
     grid-column-start: 1;
     grid-row-start: 2 ;
     font-family: Nunito;
@@ -1371,7 +1371,7 @@ margin-left: 20px;
     align-self: center;
     font-weight: bold;
 }
-.n2{
+.k2{
     grid-column-start: 1;
     grid-row-start: 3;
     font-family: Nunito;
@@ -1386,7 +1386,7 @@ margin-left: 20px;
     width: 90%;
     margin-left: 20px;
 }
-.n3{
+.k3{
     grid-column-start: 2;
     grid-row-start: 2 ;
     font-family: Nunito;
@@ -1395,7 +1395,7 @@ margin-left: 20px;
     align-self: center;
     font-weight: bold;
 }
-.n4{
+.k4{
     grid-column-start: 2;
     grid-row-start: 3 ;
     font-family: Nunito;
@@ -1410,7 +1410,7 @@ margin-left: 20px;
     width: 90%;
     margin-left: 20px;
 }
-.n5{
+.k5{
     grid-column-start: 3;
     grid-row-start: 2 ;
     font-family: Nunito;
@@ -1419,7 +1419,7 @@ margin-left: 20px;
     align-self: center;
     font-weight: bold;
 }
-.n6{
+.k6{
     grid-column-start: 3;
     grid-row-start: 3 ;
     font-family: Nunito;
@@ -1434,7 +1434,7 @@ margin-left: 20px;
     width: 90%;
     margin-left: 20px;
 }
-.n7{
+.k7{
     grid-column-start: 4;
     grid-row-start: 2 ;
     font-family: Nunito;
@@ -1443,11 +1443,74 @@ margin-left: 20px;
     align-self: center;
     font-weight: bold;
 }
-.n8{
+.k8{
     grid-column-start: 4;
     grid-row-start: 3 ;
     font-family: Nunito;
     font-size: 17px;
     color:rgb(10, 10, 10);
     align-self: center;
+}
+.image41{
+    grid-column-start: 1;
+    grid-row-start: 4 ;
+    height: 300px;
+    width: 90%;
+    margin-left: 20px;
+}
+.k9{
+    grid-column-start: 1;
+    grid-row-start: 5 ;
+    font-family: Nunito;
+    font-size: 15px;
+    color:rgb(30, 56, 23);
+    align-self: left;
+}
+.image42{
+    grid-column-start: 2;
+    grid-row-start: 4 ;
+    height: 300px;
+    width: 90%;
+    margin-left: 20px;
+}
+.k10{
+    grid-column-start: 2;
+    grid-row-start: 5;
+    font-family: Nunito;
+    font-size: 15px;
+    color:rgb(30, 56, 23);
+    align-self: left;
+
+
+}
+.image43{
+    grid-column-start: 3;
+    grid-row-start: 4 ;
+    height: 300px;
+    width: 90%;
+    margin-left: 20px;
+    
+}
+.k11{
+    grid-column-start: 3;
+    grid-row-start: 5;
+    font-family: Nunito;
+    font-size: 15px;
+    color:rgb(30, 56, 23);
+    align-self: left;
+}
+.image44{
+    grid-column-start: 4;
+    grid-row-start: 4 ;
+    height: 300px;
+    width: 90%;
+    margin-left: 20px;
+}
+.k12{
+    grid-column-start: 4;
+    grid-row-start: 5;
+    font-family: Nunito;
+    font-size: 15px;
+    color:rgb(30, 56, 23);
+    align-self: left;
 }
