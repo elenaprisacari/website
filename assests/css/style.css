@@ -1353,7 +1353,7 @@ margin-left: 20px;
 .collectiv{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 4fr 0.1fr 0.1fr 4fr 1fr 1fr 4fr 1fr 1fr;
+    grid-template-rows: 4fr 0.1fr 0.1fr 4fr 0.1fr 4fr 0.1fr 1fr 1fr;
 }
 .image37{
     grid-column-start: 1;
@@ -1522,6 +1522,75 @@ margin-left: 20px;
 .k12{
     grid-column-start: 4;
     grid-row-start: 5;
+    font-family: Nunito;
+    font-size: 15px;
+    color:rgb(30, 56, 23);
+    align-self: left;
+    margin-left: 20px;
+}
+.image45{
+    grid-column-start: 1;
+    grid-row-start: 6 ;
+    height: 200px;
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 90px;
+}
+.k13{
+    grid-column-start: 1;
+    grid-row-start: 7 ;
+    font-family: Nunito;
+    font-size: 15px;
+    color:rgb(30, 56, 23);
+    align-self: left;
+    margin-left: 20px;
+}
+.image46{
+    grid-column-start: 2;
+    grid-row-start: 6 ;
+    height: 200px;
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 90px;
+}
+.k14{
+    grid-column-start: 2;
+    grid-row-start: 7;
+    font-family: Nunito;
+    font-size: 15px;
+    color:rgb(30, 56, 23);
+    align-self: left;
+    margin-left: 20px;
+}
+.image47{
+    grid-column-start: 3;
+    grid-row-start: 6 ;
+    height: 200px;
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 90px;
+}
+.k15{
+    grid-column-start: 3;
+    grid-row-start: 7;
+    font-family: Nunito;
+    font-size: 15px;
+    color:rgb(30, 56, 23);
+    align-self: left;
+    margin-left: 20px;
+}
+.image48{
+
+    grid-column-start: 4;
+    grid-row-start: 6 ;
+    height: 200px;
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 90px;
+}
+.k12{
+    grid-column-start: 4;
+    grid-row-start: 7;
     font-family: Nunito;
     font-size: 15px;
     color:rgb(30, 56, 23);
