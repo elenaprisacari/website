@@ -1597,3 +1597,136 @@ margin-left: 20px;
     align-self: left;
     margin-left: 20px;
 }
+.questions{
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: 2fr 150px 150px 150px 2fr;
+    background-color: rgba(82, 160, 60, 0.267);
+}
+.q1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    font-family: Nunito;
+    font-size: 40px;
+    color:rgb(30, 56, 23);
+    align-self: left;
+    margin-left: 200px;
+}
+.q2{
+    grid-column: 1/6;
+    grid-row: 2/2;
+    font-family: Nunito;
+    font-size: 20px;
+    color:rgb(30, 56, 23);
+    align-self: left;
+    margin-left: 200px;
+    margin-right: 150px;
+}
+.q3{
+    grid-column: 1/6;
+    grid-row: 3/3;
+    font-family: Nunito;
+    font-size: 20px;
+    color:rgb(30, 56, 23);
+    align-self: left;
+    margin-left: 200px;
+    margin-right: 150px;
+}
+.q4{
+    grid-column: 1/6;
+    grid-row: 4/4;
+    font-family: Nunito;
+    font-size: 20px;
+    color:rgb(30, 56, 23);
+    align-self: left;
+    margin-left: 200px;
+    margin-right: 150px;
+}
+.q5{
+    grid-column: 1/2;
+    grid-row: 5/5;
+    font-family: Nunito;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(45, 112, 43, 0.59);
+    border-radius: 5px;
+    height: 35px;
+    margin-left: 500px;  
+    width: 200px; 
+}
+.q6{
+    grid-column: 2/3;
+    grid-row: 5/5;
+    font-family: Nunito;
+    font-size: 20px;
+    color:rgb(26, 23, 23);
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(137, 150, 136, 0.59);
+    border-radius: 5px;
+    height: 35px;
+    margin-left: 1px;
+}
+.q7{
+    grid-column: 3/4;
+    grid-row: 5/5;
+    font-family: Nunito;
+    font-size: 20px;
+    color:rgb(26, 23, 23);
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(137, 150, 136, 0.59);
+    border-radius: 5px;
+    height: 35px;
+    margin-left: 1px;
+}
+.input2{
+    grid-column: 1/5;
+    grid-row: 6/6;
+    width:700px;
+    align-content: center;
+    margin-top: 10px;
+    margin-left: 400px;
+}
+.input3{
+    grid-column: 1/5;
+    grid-row: 7/7;
+    width:700px;
+    align-content: center;
+    margin-top: 10px;
+    margin-left: 400px;
+}
+.input4{
+    grid-column: 1/5;
+    grid-row: 8/8;
+    width:700px;
+    align-content: center;
+    margin-top: 10px;
+    margin-left: 400px;
+}
+.input5{
+    grid-column: 1/5;
+    grid-row: 9/10;
+    width:700px;
+    align-content: center;
+    margin-top: 10px;
+    margin-left: 400px;
+}
+.q8{
+    grid-column: 2/3;
+    grid-row: 10/11;
+    width: 100px;
+    height: 40px;
+    font-family: Nunito;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+    margin-top: 10px;
+    background-color: rgba(18, 32, 29, 0.658);
+    border-radius: 2px;
+}
+
